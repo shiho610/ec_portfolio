@@ -1,0 +1,110 @@
+@media(max-width:1000px){
+    .item_list{
+        width: 800px;
+    }
+    
+    header{
+        width: 100%;
+        padding: 0;
+    }
+    
+    .cart_list{
+        width: 100%;
+        padding: 15px;
+    }
+    
+    table{
+        width: 100%;
+        padding: 15px;
+    }
+    
+    .cart_list p{
+        margin: 5px 0;
+    }
+    
+    .menu{
+        
+    }
+    
+    .item img{
+        height: 150px;
+    }
+    
+    .cart_list img{
+        height: 100px;
+        margin:0 auto;
+    }
+    
+    .sum{
+        font-size: 18px;
+    }
+    
+    .buy_btn {
+        width:100px;
+    }
+}
+
+/*********************/
+/*　　スマホ向け　　*/
+
+@media(max-with: 670px){
+    
+    
+/*　shopping.css　 */
+
+    .item_list{
+        width: 100%;
+    }
+    
+    .cart_list{
+        width: 100%;
+        padding: 15px;
+    }
+    
+    header{
+        width: 100%;
+        padding: 0;
+    }
+    
+    table{
+        width: 100%;
+        padding: 15px;
+    }
+    
+    .cart_list p{
+        margin: 5px 0;
+    }
+    
+    .logo {
+        font-size: 18px;
+    }
+  
+    .menu{
+        font-size: 15px;
+    }
+    
+    .item img{
+        height: 150px;
+    }
+    
+    .cart_list img{
+        height: 100px;
+        margin:0 auto;
+    }
+    
+    .sum{
+        font-size: 18px;
+    }
+    
+    .buy_btn {
+        width:100px;
+    }
+    
+    
+    /*　admin.css  */
+    
+    .insert_img img {
+        height: 100px;
+    }
+
+}
